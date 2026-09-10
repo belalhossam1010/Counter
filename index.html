@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="StyleSheet" href="CSS/all.css" />
+    <link rel="StyleSheet" href="CSS/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Carter+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Counter.css" />
+    <title>Counter</title>
+  </head>
+  <body
+    class="d-flex flex-column justify-content-center align-items-center m-0"
+  >
+    <div
+      class="design d-flex justify-content-center text-center flex-column fs-6 text-light"
+    >
+      <h1>Welcome to counter website</h1>
+      <p>Here you can Add and Subtract counter - That's Simple</p>
+    </div>
+    <div class="counter d-flex justify-content-between gap-0 w-25 m-auto">
+      <button class="bg-transparent border-0 m-4 fs-3" onclick="decrement()">
+        -
+      </button>
+      <h1 id="Displayednumber" class="m-auto text-danger">0</h1>
+      <button class="bg-transparent border-0 m-4 fs-3" onclick="increment()">
+        +
+      </button>
+    </div>
+
+    <script src="Java Script/bootstrap.bundle.js"></script>
+    <script src="counter.js"></script>
+  </body>
+</html>
